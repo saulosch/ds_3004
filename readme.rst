@@ -1,19 +1,3 @@
-**********
-INSTALAÇÃO
-**********
-
-#. Crie um servidor PHP com banco de dados MySQL.
-#. Copie (ou clone) o projeto para o servidor.
-#. Execute o script contido em /src diretamente no banco de dados. Esta ação irá criar o schema 'ds_3004' (caso este esquema já exista, é importante renomeá-lo no script e na classe de conexao.)
-#. Preencha os dados de usuario, senha e endereço do banco na classe de conexão lib/conexao.php (por padrão estão definidos root, root e localhost, respectivamente)
-
-****************************
-Observações do desenvolvedor
-****************************
-
-- A especificação não determinava se o campo status deveria ser obrigatório ou não. Optou-se por torná-lo obrigatório.
-- A aplicação foi homologada para funcionamento com o banco de dados MySQL e no navegador Mozzila Firefox 54 ou superior em desktop.
-
 
 ###############################################
 Modelo de aplicação para controle de atividades
@@ -85,4 +69,22 @@ A entrega do projeto deve contempla os itens:
 #. Modelo de dados (formato png, jpg, etc) criado para atender o projeto (utilizando a ferramenta Mysql Workbench, por exemplo);
 #. Script para criação do banco de dados disponível na pasta “src” na raíz do projeto;
 #. Código fonte disponibilizado em algum repositório GITHUB ou BITBUCKET (retornar e-mail com o link do repositório para ser clonado);
+
+
+**********
+INSTALAÇÃO
+**********
+
+#. Crie um servidor PHP com banco de dados MySQL.
+#. Copie (ou clone) o projeto para o servidor.
+#. Execute o script contido em /src diretamente no banco de dados. Esta ação irá criar o schema 'ds_3004' (caso este esquema já exista, é importante renomeá-lo no script e na classe de conexao.)
+#. Preencha os dados de usuario, senha e endereço do banco na classe de conexão lib/conexao.php (por padrão estão definidos root, root e localhost, respectivamente)
+
+****************************
+Observações do desenvolvedor
+****************************
+
+- A especificação não determinava se o campo status deveria ser obrigatório ou não. Optou-se por torná-lo obrigatório.
+- A aplicação foi homologada para funcionamento com o banco de dados MySQL e no navegador Mozzila Firefox 54 ou superior em desktop.
+
 
